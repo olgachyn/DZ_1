@@ -3,14 +3,14 @@
 using namespace std;
 
 void firstPart() {
-    for (int i = 0; i < 5; i++) {
-        cout << "Thread 1: " << i << endl;
+    for (int i = 10; i < 20; i++) {
+        cout << "Thread 10: " << i << endl;
     }
 }
 
 void secondPart() {
-    for (int i = 5; i < 10; i++) {
-        cout << "Thread 2: " << i << endl;
+    for (int i = 20; i < 30; i++) {
+        cout << "Thread 20: " << i << endl;
     }
 }
 
